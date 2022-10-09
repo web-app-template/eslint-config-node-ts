@@ -1,0 +1,19 @@
+{
+  "name": "@app-template/eslint-config-node-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "keywords": [],
+  "author": "luohuidong",
+  "license": "MIT",
+  "devDependencies": {
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0",
+    "prettier": "2.7.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
